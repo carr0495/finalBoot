@@ -8,11 +8,13 @@
     img {
         z-index: 1;
         width: 100vw;
+        position: relative;
     }
 
     ;
 
     .about {
+        z-index: 10;
         position: absolute;
         bottom: 85vh;
         left: 20px;
@@ -40,6 +42,7 @@
     }
 
     .skills {
+        z-index: 10;
         position: absolute;
         bottom: 60vh;
         width: 100%;
@@ -49,6 +52,7 @@
     }
 
     .social {
+        z-index: 10;
         position: fixed;
         display: flex;
         justify-content: space-around;
@@ -72,6 +76,7 @@
     }
 
     .skillsArea{
+        z-index: 10;
         position: absolute;
         width: 60%;
         height: 50px;
@@ -83,6 +88,7 @@
         box-shadow: 0 1px 3px black;
 
         .icon{
+            z-index: 10;
             color: white;
             padding: 10px;
         }
@@ -101,12 +107,13 @@
 
 
 #navigation {
-    z-index: 900;
+    z-index: 10;
     position: fixed;
     width: 100%;
     background-color: rgba($color: $myOrange, $alpha: 0.6);
 }
 
 a {
+    z-index: 10;
     color: white;
 }

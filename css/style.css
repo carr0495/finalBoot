@@ -3,8 +3,10 @@
 
 .background img {
   z-index: 1;
-  width: 100vw; }
+  width: 100vw;
+  position: relative; }
 .background .about {
+  z-index: 10;
   position: absolute;
   bottom: 85vh;
   left: 20px;
@@ -27,6 +29,7 @@
   box-shadow: 0 1px 3px black;
   background-color: #f17105; }
 .background .skills {
+  z-index: 10;
   position: absolute;
   bottom: 60vh;
   width: 100%;
@@ -34,6 +37,7 @@
   right: 20px;
   font-size: 7vw; }
 .background .social {
+  z-index: 10;
   position: fixed;
   display: flex;
   justify-content: space-around;
@@ -50,6 +54,7 @@
     background-color: #c5a721;
     color: white; }
 .background .skillsArea {
+  z-index: 10;
   position: absolute;
   width: 60%;
   height: 50px;
@@ -60,6 +65,7 @@
   border-bottom-left-radius: 500px;
   box-shadow: 0 1px 3px black; }
   .background .skillsArea .icon {
+    z-index: 10;
     color: white;
     padding: 10px; }
 .background .divider {
@@ -71,12 +77,13 @@
   font-size: 7vw; }
 
 #navigation {
-  z-index: 900;
+  z-index: 10;
   position: fixed;
   width: 100%;
   background-color: rgba(241, 113, 5, 0.6); }
 
 a {
+  z-index: 10;
   color: white; }
 
 /*# sourceMappingURL=style.css.map */
