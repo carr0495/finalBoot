@@ -4,6 +4,7 @@
 .background img {
   z-index: 1;
   width: 100vw;
+  height: auto;
   position: relative; }
 .background .about {
   z-index: 10;
@@ -69,7 +70,7 @@
     color: white;
     padding: 10px; }
 .background .divider {
-  width: 100%;
+  width: 100vw;
   height: 8vh;
   background-color: #f17105;
   text-align: center;
@@ -79,7 +80,8 @@
 #navigation {
   z-index: 10;
   position: fixed;
-  width: 100%;
+  width: 100vw;
+  height: 7vh;
   background-color: rgba(241, 113, 5, 0.6); }
 
 a {

@@ -8,6 +8,7 @@
     img {
         z-index: 1;
         width: 100vw;
+        height: auto;
         position: relative;
     }
 
@@ -94,7 +95,7 @@
         }
     }
     .divider{
-        width: 100%;
+        width: 100vw;
         height: 8vh;
         background-color: $myOrange;
         text-align: center;
@@ -109,7 +110,8 @@
 #navigation {
     z-index: 10;
     position: fixed;
-    width: 100%;
+    width: 100vw;
+    height: 7vh;
     background-color: rgba($color: $myOrange, $alpha: 0.6);
 }
 
